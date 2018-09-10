@@ -1,0 +1,16 @@
+{
+  "name": "ltp/magento2-module-customerlastloggedin",
+  "description": "LTP Magento2 module CustomerLastLoggedIn",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "LTP\\CustomerLastLoggedIn\\": ""
+    }
+  }
+}
